@@ -3,6 +3,8 @@
 ## Setup
 
 > https://www.robinwieruch.de/javascript-project-setup-tutorial/
+>
+> https://www.robinwieruch.de/minimal-node-js-babel-setup
 
 First create the Project folder
 
