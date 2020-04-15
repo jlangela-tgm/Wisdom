@@ -6,7 +6,28 @@ Dies soll erfolgen ohne die Kapselung zu beinträchtigen. Der Zustand des Objekt
 
 ## Aufbau/ Umsetztung
 
-Das Pattern beinhaltet 
+Das Pattern beinhaltet 3 Klassen:
+
+1. Die Klasse dessen Objekt man  speichern können soll (Originator)
+2. Die Klasse welche die Zustände der Originators speichern und wieder ausgeben kann. (Memento)
+3. Die Klasse die dem Originator den Befehl gibt seinen Zustand zu speichern oder auf ein gespeichertes Memento zurückzusetzten.
+
+Ablauf:
+
+​	Der Originator verfügt über eine Methode mit der er seinen Zustand in ein Memento speichern kann.
+
+​	Das Memento verfügt lediglich über getter und setter Methoden für das Speichern des Zustandes.
+
+​	Der Originator entscheidet wann ein Memento erstellt werden soll und wann der zustand auf ein altes
+​	Memento zurückgesetzt werden soll.
+
+UML:
+
+
+
+Beispiel:
+
+
 
 http://vincehuston.org/dp/memento.html
 
