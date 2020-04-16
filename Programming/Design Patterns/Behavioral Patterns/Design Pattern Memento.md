@@ -4,6 +4,10 @@ Das Memento Pattern ist ein Behavoiural Pattern (Verhaltens Pattern), welches er
 
 Dies soll erfolgen ohne die Kapselung zu beinträchtigen. Der Zustand des Objektes wird also in einem anderen Objekt gespeichert und kann von dort wieder ausgelesen werden.
 
+Beispielsweise kann der Benutzer also den aktuellen zustand eines Objektes speichern, wenn er es weiter bearbeiten aber noch auf den alten Zustand wieder zugreifen möchte.
+
+Bsp.: Undo, Spielstand speichern.
+
 ## Aufbau/ Umsetztung
 
 ### Aufbau
@@ -26,9 +30,15 @@ Das Pattern beinhaltet 3 Klassen:
 
 ### UML
 
+![MementoUML](\MementoUML.png)
 
+### Beispiel
 
-Beispiel:
+Ein Beispiel in dem das Memento Pattern implementiert wurde befindet sich in folgendem Repository.
+
+(zu bewerten ist das package game, ist besser als editor)
+
+https://github.com/jlangela-tgm/Memento-Example
 
 
 
