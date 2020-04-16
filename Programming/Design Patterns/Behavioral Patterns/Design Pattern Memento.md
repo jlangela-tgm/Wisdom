@@ -1,5 +1,7 @@
 # Design Pattern: Memento
 
+> Jan Langela Regincos
+
 Das Memento Pattern ist ein Behavoiural Pattern (Verhaltens Pattern), welches ermöglicht den Zustand eines Objektes zu speichern, um es später wieder in diesen Zustand versetzten zu können. z.B.: Rollback
 
 Dies soll erfolgen ohne die Kapselung zu beinträchtigen. Der Zustand des Objektes wird also in einem anderen Objekt gespeichert und kann von dort wieder ausgelesen werden.
@@ -35,6 +37,14 @@ Das Pattern beinhaltet 3 Klassen:
 ### Beispiel
 
 Ein Beispiel in dem das Memento Pattern implementiert wurde befindet sich in folgendem Repository.
+
+Es handelt sich um ein Kleines Spiel in dem man Verschiedene Pfade zu einem Ziel nehmen kann. Das Spiel implementiert das Speichern und Laden von Spielständen. Ist sich der Spieler also nicht sicher welchen Pfad er nehmen möchte kann er den Spielstand speichern, einem Weg ausprobieren und den gespeicherten Spielstand wieder Laden um den anderen Weg zu wählen.
+
+Der Spielstand (Standort im Spiel) wird als Enum abgespeichert, der aktuelle Wert des Enums wird beim Speichern in ein Memento Objekt gespeichert.
+
+Außerdem wird der Speicherstand in einer Dropdownliste gespeichert, aus welcher an einen beliebigen Spielstand auswählen und Laden kann.
+
+Viel Glück bei der Suche nach dem Ziel.
 
 (zu bewerten ist das package game, ist besser als editor)
 
